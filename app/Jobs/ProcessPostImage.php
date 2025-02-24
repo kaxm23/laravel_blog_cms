@@ -17,7 +17,7 @@ class ProcessPostImage implements ShouldQueue
     public function __construct(
         protected Post $post,
         protected string $imagePath
-    ) {}
+    ) { }
 
     public function handle()
     {
